@@ -1,0 +1,51 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:wght@400;500&display=swap");
+
+/* common styles or utilities */
+body {
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.home-route {
+  margin-left: 120px;
+}
+
+.home-route a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  font-feature-settings: "liga" off;
+  color: #3a3a3a;
+}
+.route {
+  margin-right: 120px;
+}
+.route a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #3a3a3a;
+  margin-right: 34px;
+}
+
+.influencer {
+  display: flex;
+}
+
+/* .half-width {
+    width: 100%;
+} */
