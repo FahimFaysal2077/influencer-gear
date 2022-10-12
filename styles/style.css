@@ -1,17 +1,27 @@
-/* fonts */
+/* -------------
+    fonts 
+---------------- */
+
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:wght@400;500&display=swap");
 
-/* common styles or utilities */
+/* ------------------------------
+    common styles or utilities 
+--------------------------------- */
+
 body {
   margin: 0%;
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
 }
 
+/* --------------------
+    nav bar style 
+----------------------- */
+
 nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 nav a {
@@ -41,9 +51,60 @@ nav a {
   color: #3a3a3a;
   margin-right: 34px;
 }
+/* -------------------------------
+    influencer products style 
+---------------------------------- */
 
 .influencer {
   display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.half-width {
+  padding-right: 80px;
+}
+
+.img-width {
+  margin-left: 520px;
+}
+
+.half-width h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  color: #3a3a3a;
+}
+
+.half-width p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #3a3a3a;
+}
+
+.prebook-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 196px;
+  padding: 10px 24px;
+  gap: 8px;
+  background-color: #e02c6d;
+  border-radius: 41px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.prebook-btn a {
+  text-decoration: none;
+  color: white;
 }
 
 /* .half-width {
