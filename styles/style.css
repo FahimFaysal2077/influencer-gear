@@ -134,3 +134,94 @@ nav a {
   gap: 60px;
   padding: 36px 62px;
 }
+
+/* -------------------------------
+    popular collection style 
+---------------------------------- */
+
+.popular-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  /* identical to box height, or 250% */
+  color: #3a3a3a;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  /* border: 2px solid red; */
+}
+
+.top-collection {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.product {
+  border-radius: 10px;
+  margin: 10px;
+  /* border: 2px solid forestgreen; */
+  max-width: 329px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.product img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.product-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  /* identical to box height, or 143% */
+  font-feature-settings: "liga" off;
+  /* Text / Gray 900 */
+  color: #18191f;
+  margin: 16px 0 0 0;
+}
+
+.product h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 6px 0 0 0;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-height: 32px;
+}
+.ratings p,
+h5 {
+  margin: 0%;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+  color: #fb8200;
+  font-size: 15px;
+}
+
+.ratings h5 {
+  color: #5e6366;
+}
+
+.product p {
+  margin: 0%;
+}
