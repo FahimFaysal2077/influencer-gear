@@ -160,7 +160,7 @@ nav a {
 }
 
 .top-collection {
-  max-width: 1240px;
+  max-width: 1047px;
   margin: 0 auto;
 }
 .product {
@@ -233,10 +233,64 @@ h5 {
   gap: 8px;
   margin-top: 50px;
   padding-right: 20px;
+  color: rgba(224, 44, 109, 0.87);
 }
 
-.seemore-route,
-a {
+.seemore-route a {
   text-decoration: none;
   color: rgba(224, 44, 109, 0.87);
+}
+
+/* -------------------------------
+    featured products style 
+---------------------------------- */
+
+.featured-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+  margin: 102px 165px;
+}
+
+.featured-img {
+  border-radius: 7px;
+}
+
+.featured-detail h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+  /* identical to box height, or 158% */
+  color: #0a0826;
+  margin: 25px 0 0 0;
+}
+.featured-detail p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  color: #6c6c6c;
+  margin: 16px 0 16px 0;
+}
+
+.join-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 155px;
+  padding: 10px 24px;
+  gap: 8px;
+  background-color: #e02c6d;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+.join-btn a {
+  text-decoration: none;
+  color: white;
 }
