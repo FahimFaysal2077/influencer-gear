@@ -51,13 +51,17 @@ nav a {
   color: #3a3a3a;
   margin-right: 34px;
 }
+
+.icon {
+  display: none;
+}
 /* -------------------------------
     influencer products style 
 ---------------------------------- */
 
 .influencer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 50px;
 }
 
@@ -100,6 +104,7 @@ nav a {
   line-height: 24px;
   /* identical to box height */
   color: #ffffff;
+  margin-top: 16px;
 }
 
 .prebook-btn a {
@@ -327,3 +332,154 @@ p {
   color: #ffffff;
   font-size: 25px;
 }
+
+/* ---------------------
+    Media Queries
+    ---------------------- */
+
+/****** Mobile Devices ******/
+@media only screen and (max-width: 688px) {
+  /*---- common styles or utilities ---- */
+  body {
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    min-width: 360px;
+  }
+
+  /*---- nav bar style ---- */
+  nav {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .home-route {
+    margin: 0%;
+    padding-right: 100px;
+  }
+
+  .nav-name {
+    display: none;
+  }
+
+  nav a.icon {
+    float: ;
+    display: block;
+  }
+
+  /*---- influencer products style ---- */
+  .container {
+    width: 100%;
+  }
+
+  .influencer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .half-width {
+    padding: 0%;
+    text-align: center;
+  }
+
+  .half-width p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: "liga" off;
+    color: #3a3a3a;
+  }
+
+  .half-width h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .half-width p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    margin-bottom: 20px;
+  }
+
+  .prebook-btn {
+    margin: auto;
+    width: 80%;
+  }
+
+  .img-width {
+    width: 100%;
+    margin: 0%;
+  }
+
+  /*---- brand logo style ---- */
+  .logos hr {
+    display: none;
+  }
+
+  .logo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 36px 62px;
+    gap: 22px;
+  }
+  .logo img {
+    width: 100%;
+    text-align: center;
+  }
+
+  /*---- popular collection style ---- */
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    width: 80%;
+    gap: 15px;
+  }
+
+  .product {
+    margin: auto;
+    width: 100%;
+  }
+
+  /*---- featured products style ---- */
+
+  .featured-products {
+    flex-direction: column-reverse;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid red;
+    margin: 0%;
+  }
+
+  .featured-img {
+    margin: 30px 0 50px 0;
+  }
+
+  .featured-detail {
+    text-align: center;
+  }
+  .join-btn {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+/* Tablet Devices */
+/* @media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */
