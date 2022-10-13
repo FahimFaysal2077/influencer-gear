@@ -294,3 +294,36 @@ h5 {
   text-decoration: none;
   color: white;
 }
+
+/* ------------------------------------
+    influencer products footer style 
+--------------------------------------- */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 350px;
+  background-color: #0a0826;
+}
+.influencer-footer {
+  margin: 50px 0px;
+  color: white;
+  text-align: center;
+}
+
+.influencer-footer h2,
+p {
+  margin: 0px 0px 3px 0;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin-top: 17px;
+}
+
+.fa-brands {
+  color: #ffffff;
+  font-size: 25px;
+}
